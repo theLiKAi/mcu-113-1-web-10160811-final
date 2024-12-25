@@ -1,3 +1,5 @@
+$primary-font: "Helvetica", sans-serif;
+
 nav {
   background-color: var(--body-color);
   position: fixed;
@@ -13,6 +15,7 @@ nav {
     font-size: 24px;
     font-weight: 600;
     color: var(--logo-color);
+    font-family: $primary-font;
   }
 
   ul {
