@@ -3,6 +3,6 @@
 ## 頁面實作
 
 - 利用 HTML 建立如下圖所示的網站
-  ![這是一張本地圖片](./images/image.jpg)
+  (./src/assets/images/github_page.png)
 
 ## 樣式實作
