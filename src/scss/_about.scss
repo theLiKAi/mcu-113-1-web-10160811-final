@@ -44,16 +44,22 @@
     }
 
     .item {
-      font-size: 17px;
-      padding: 5px;
+      font-size: 15px;
+      padding: 11px;
+      display: flex;
+      justify-content: space-between;
       color: var(--text-color);
       position: relative;
+
+      strong {
+        font-weight: bold;
+      }
 
       &::before {
         box-sizing: border-box;
         content: "";
         position: absolute;
-        top: 9px;
+        top: 14px;
         left: -16px;
         width: 15px;
         height: 15px;
